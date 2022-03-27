@@ -39,7 +39,7 @@ Comment.belongsTo(User, {
 });
 
 Comment.belongsTo(Post, {
-    foreignKey: 'post_ic'
+    foreignKey: 'post_id'
 });
 
 User.belongsToMany(Post, {
